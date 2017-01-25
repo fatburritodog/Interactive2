@@ -30,3 +30,12 @@ a {
     padding: 50px;
     border: 20px groove #D3EAF1;
 }
+
+.ideaone {
+    margin: 20px;
+    background-color: #D3EAF1;
+    width: 300px;
+    height: 600px;
+    padding: 20px;
+    border: 20px groove #D3EAF1;
+}
