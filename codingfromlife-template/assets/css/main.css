@@ -1,0 +1,209 @@
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #787E80;
+	position: relative;
+}
+
+
+#table {
+	width: 900px;
+	height: 200px;
+	background: #CEAF80;
+	top: 160px;
+	left: 0px;
+	position: absolute;
+}
+
+#mat {
+	position: absolute;
+	top: 350px;
+	left: 200px;
+	width: 550px;
+	height: 100px;
+	-webkit-transform: skew(66deg);
+	   -moz-transform: skew(50deg);
+	     -o-transform: skew(50deg);
+	background: #CFF32D;
+}
+
+.cup
+{
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	opacity:0.32;
+	background: #C2C9CB;
+	-webkit-clip-path: polygon(45% 29%, 67% 29%, 79% 53%, 60% 63%, 59% 69%, 66% 80%, 43% 80%,52% 69%, 50% 63%, 32% 52%);clip-path: polygon(45% 29%, 67% 29%, 79% 53%, 60% 63%, 59% 69%, 66% 80%, 43% 80%, 52% 69%, 50% 63%, 32% 52%);
+}
+
+#cup1
+{
+	top: 200px;
+	left: 330px;
+}
+
+#cup2
+{
+	top: 203px;
+	left: 200px;
+}
+
+
+
+
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+		transform: scale(2.75);
+		top: 130px;
+		left: 200px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #D12338;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+#bottle {
+	position: absolute;
+	top: 144px;
+	left: 160px;
+	width: 280px;
+	height: 280px;
+	opacity:0.92;
+	background: #136633;
+	-webkit-clip-path: polygon(39% 0, 47% 0, 47% 28%, 55% 42%, 55% 94%, 33% 94%, 34% 42%, 39% 28%);
+clip-path: polygon(39% 0, 47% 0, 47% 28%, 55% 42%, 55% 94%, 33% 94%, 34% 42%, 39% 28%);
+}
+#bottleshadow
+{
+	position: relative;
+    width: 40px;
+    height: 0px;
+    top: 317px;
+    left: 266px;
+    box-shadow: 0 0 20px 6px #3B3839;
+}
+
+#jar {
+	position: absolute;
+	top: 155px;
+	right: 120px;
+	width: 280px;
+	height: 280px;
+	background: #E6F0F2;
+	opacity: 0.23;
+	-webkit-clip-path: polygon(40% 15%, 59% 15%, 59% 21%, 66% 32%, 68% 81%, 32% 81%, 33% 33%, 39% 22%);
+clip-path: polygon(40% 15%, 59% 15%, 59% 21%, 66% 32%, 68% 81%, 32% 81%, 33% 33%, 39% 22%);
+}
+
+.flower{
+	position: absolute;
+	background: #D74576;
+	width: 20px;
+	height: 30px;
+	border-radius: 5px;
+	transform: rotateY(47deg) rotateZ(41deg) rotateX(-10deg) scale(1.2);
+	border-radius: 5px;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 54px;
+	border-bottom-left-radius: 49px;
+	z-index: 3;
+}
+
+#flower1{
+	top: 125px;
+	right: 250px;
+}
+
+#flower2{
+	top: 145px;
+	right: 280px;
+	background: #B82254;
+	border-radius: 4px;
+	border-top-right-radius: 200px;
+	border-top-left-radius: 39px;
+	border-bottom-left-radius: 79px;
+	transform: rotateY(160deg) rotateZ(31deg) rotateX(-10deg) scale(1.6);
+}
+
+#flower3{
+	top: 155px;
+	right: 240px;
+	border-radius: 4px;
+	background: #F06F9A;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 78px;
+	border-bottom-left-radius: 29px;
+	transform: rotateY(10deg) rotateZ(44deg) rotateX(190deg) scale(1.6);
+}
+
+.stem{
+	position: absolute;
+	background: #2B6F55;
+	height: 200px;
+	width: 10px;
+}
+
+#stem{
+	top: 175px;
+	right: 250px;
+}
+
+#stem2{
+	top: 145px;
+	right: 280px;
+}
+
+#stem3{
+	top: 155px;
+	right: 240px;
+}
+
+#table {
+	position: absolute;
+	width: 900px;
+	height: 200px;
+	background: #CEAF80;
+	top: 300px;
+	left: 0px;
+}
