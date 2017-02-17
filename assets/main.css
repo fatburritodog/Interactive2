@@ -18,6 +18,15 @@ h2 {
     color: #266FA5;
 }
 
+.title{
+  position: relative;
+  left: 200px;
+  font-family: "Oswald", sans-serif;
+  font-size: 45px;
+  color: #B4A4D8;
+  text-shadow: 2px 2px 3px #03011C;
+}
+
 a {
     color: #BF76E3;
 }
