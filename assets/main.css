@@ -3,6 +3,7 @@ body {
     background-size: contain;
     width: 200px;
     height: 100px;
+    cursor: url(cursor.ico), auto;
 }
 
 h1 {
