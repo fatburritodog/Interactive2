@@ -1,7 +1,14 @@
 body {
-    background: #4F4A7D;
-    312B6F
+    /*background: #4F4A7D;
+    312B6F */
     background-image: url(./sunset.png);
+    background-size: contain;
+    width: 900px;
+    height: 600px;
+}
+
+.letter:hover .light {
+background: #F2F554;
 }
 
 
@@ -317,13 +324,49 @@ body {
   border-bottom: 40px solid #070426;
 }
 
-#Y .right{
+#W .right{
   top: 0px;
-  left: 0px;
-  border-top: 45px solid #070426;
-  border-right: 11.25px solid #070426;
-  border-left: 11.25px solid transparent;
-  border-bottom: 45px solid transparent;
+  right: 10px;
+  border-top: 90px solid transparent;
+  border-right: 22.25px solid transparent;
+}
+
+#W .stick{
+  bottom: -1px;
+    right: 24px;
+    border-top: 9px solid #070426;
+    border-right: 3px solid #070426;
+    border-left: 4px solid #070426;
+    border-bottom: 20px solid #070426;
+    transform: rotate(40deg);
+}
+
+#W .sticks{
+    bottom: 0px;
+    right: 10px;
+    border-top: 9px solid #070426;
+    border-right: 3px solid #070426;
+    border-left: 4px solid #070426;
+    border-bottom: 20px solid #070426;
+    transform: rotate(140deg);
+}
+
+
+
+#X .top{
+  top: 0;
+right: 12.03px;
+border-top: 14px solid transparent;
+border-right: 11px solid #070426;
+border-left: 5px solid #070426;
+}
+
+#X .left{
+  right: 0;
+top: 0;
+border-right: 20px solid transparent;
+border-top: 25px solid #070426;
+border-bottom: 65px solid #070426;
 }
 
 #Y .top{
@@ -334,6 +377,16 @@ border-right: 11px solid #070426;
 border-left: 5px solid #070426;
 }
 
+
+#Y .right{
+  top: 0px;
+  left: 0px;
+  border-top: 45px solid #070426;
+  border-right: 11.25px solid #070426;
+  border-left: 11.25px solid transparent;
+  border-bottom: 45px solid transparent;
+}
+
 #Y .left{
   right: 0;
 top: 0;
@@ -341,6 +394,8 @@ border-right: 20px solid transparent;
 border-top: 25px solid #070426;
 border-bottom: 65px solid #070426;
 }
+
+
 #Z .left{
   top: 0px;
   right: 0px;
