@@ -1,0 +1,343 @@
+body {
+    background: #4F4A7D;
+    312B6F
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  width: 75px;
+  height: 90px;
+  background: #070426;
+  margin: 8px;
+}
+
+.light {
+    background-color: #4F4A7D;
+    position: absolute;
+    /* light color FAF99E and bg is 3E3A64*/
+}
+
+#A .top{
+  width: 10px;
+  height: 60px;
+  top: 10px;
+  right: 10px;
+}
+
+#A .bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 10px;
+}
+
+#B .bottom{
+  width: 10px;
+  height: 40px;
+  bottom: 10px;
+  right: 10px;
+}
+
+#B .top{
+  width: 10px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+}
+
+#C .top{
+  width: 10px;
+  top: 10px;
+  bottom: 10px;
+  right: 0px;
+}
+
+#D .top{
+  width: 10px;
+  top: 10px;
+  bottom: 10px;
+  right: 10px;
+}
+
+#E .top{
+  width: 10px;
+  height: 30px;
+  top: 10px;
+  right: 0px;
+}
+
+#E .bottom{
+  width: 10px;
+  height: 30px;
+  bottom: 10px;
+  right: 0px;
+}
+
+#F .top{
+  width: 10px;
+  height: 30px;
+  top: 10px;
+  right: 0px;
+}
+#F .bottom{
+  width: 10px;
+  height: 40px;
+  bottom: 0px;
+  right: 0px;
+}
+
+#G .top{
+  width: 20px;
+  height: 30px;
+  top: 10px;
+  right: 0px;
+}
+
+#G .bottom{
+  width: 10px;
+  height: 40px;
+  bottom: 10px;
+  right: 10px;
+}
+
+#H .bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 10px;
+}
+
+#H .top{
+  width: 10px;
+  height: 70px;
+  top: 0px;
+  right: 10px;
+}
+
+#I .left{
+  width: 10px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+}
+
+#I .right{
+  width: 10px;
+  height: 90px;
+  right: 0px;
+  top: 0px;
+}
+
+#J .top{
+  width: 20px;
+  height: 40px;
+  top: 0px;
+  left: 0px;
+}
+
+#J .bottom{
+  width: 10px;
+  height: 40px;
+  bottom: 10px;
+  left: 10px;
+}
+
+#L .top{
+  width: 20px;
+  height: 80px;
+  top: 0px;
+  right: 0px;
+}
+
+#M .right{
+  top: 0px;
+  right: 10px;
+  border-top: 90px solid transparent;
+  border-right: 22.25px solid transparent;
+}
+
+#M .stick{
+  top: -1px;
+    right: 24px;
+    border-top: 9px solid #070426;
+    border-right: 3px solid #070426;
+    border-left: 4px solid #070426;
+    border-bottom: 20px solid #070426;
+    transform: rotate(145deg);
+}
+
+#M .sticks{
+  t    top: 0px;
+    right: 10px;
+    border-top: 9px solid #070426;
+    border-right: 3px solid #070426;
+    border-left: 4px solid #070426;
+    border-bottom: 20px solid #070426;
+    transform: rotate(30deg);
+}
+
+#N .right{
+  top: 0px;
+  right: 10px;
+  border-top: 90px solid transparent;
+  border-right: 11.25px solid transparent;
+}
+
+#N .stick{
+  top: -1px;
+  right: 10px;
+  border-top: 19px solid #070426;
+  border-right: 5px solid #070426;
+  border-left: 5px solid #070426;
+  border-bottom: 20px solid #070426;
+  transform: rotate(145deg);
+}
+
+#O .top{
+  width: 10px;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+}
+
+#P .bottom{
+  width: 20px;
+  height: 50px;
+  bottom: 0px;
+  right: 0px;
+}
+
+#P .top{
+  width: 10px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+}
+
+#Q .top{
+  width: 10px;
+  top: 10px;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*#Q .stick{
+  bottom: -5px;
+  right: 5px;
+  border-top: 15px solid #070426;
+  border-right: 5px solid #070426;
+  border-left: 5px solid #070426;
+  border-bottom: 10px solid #070426;
+  transform: rotate(145deg);
+} */
+
+#Q .stick{
+  bottom: -10px;
+  right: 5px;
+  border-top: 15px solid #070426;
+  border-right: 5px solid #070426;
+  border-left: 5px solid #070426;
+  border-bottom: 10px solid #070426;
+  transform: rotate(180deg);
+}
+
+#R .bottom{
+  width: 20px;
+  height: 50px;
+  bottom: 0px;
+  right: 0px;
+}
+
+#R .top{
+  width: 10px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+}
+
+#S .right{
+  top: 10px;
+  right: 0px;
+  border-top: 40px solid transparent;
+  border-right: 10px solid transparent;
+  border-left: 10px solid #070426;
+  border-bottom: 40px solid #070426;
+}
+
+#S .left{
+  bottom: 10px;
+  left: 0px;
+  border-top: 35px solid #070426;
+  border-right: 11.25px solid #070426;
+  border-left: 11.25px solid transparent;
+  border-bottom: 45px solid transparent;
+}
+
+
+#T .right{
+  width: 10px;
+  height: 80px;
+  bottom: 0px;
+  right: 0px;
+}
+
+#T .left{
+  width: 10px;
+  height: 80px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#U .top{
+  width: 10px;
+  top: 0px;
+  bottom: 10px;
+  right: 10px;
+}
+
+#V .left{
+  top: 0px;
+  left: 0px;
+  border-top: 45px solid #070426;
+  border-right: 11.25px solid #070426;
+  border-left: 11.25px solid transparent;
+  border-bottom: 45px solid transparent;
+}
+
+#Y .right{
+  top: 0px;
+  left: 0px;
+  border-top: 40px solid transparent;
+  border-right: 10px solid transparent;
+  border-left: 10px solid #070426;
+  border-bottom: 40px solid #070426;
+}
+
+
+#V .top{
+  top: 0px;
+  right: 10px;
+  border-top: 40px solid transparent;
+  border-right: 10px solid transparent;
+  border-left: 10px solid #070426;
+  border-bottom: 40px solid #070426;
+}
+
+#Z .left{
+  top: 0px;
+  right: 0px;
+  border-top: 40px solid #070426;
+  border-right: 10px solid transparent;
+  border-left: 10px solid #070426;
+  border-bottom: 40px solid transparent;
+}
+
+#Z .right{
+  bottom: 0px;
+  left: 0px;
+  border-top: 40px solid transparent;
+  border-right: 11.25px solid #070426;
+  border-left: 11.25px solid transparent;
+  border-bottom: 40px solid #070426;
+}
