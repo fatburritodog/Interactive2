@@ -3,8 +3,8 @@ body {
     312B6F */
     background-image: url(./sunset.png);
     background-size: contain;
-    width: 900px;
-    height: 600px;
+    width: 1000px;
+    height: 800px;
 }
 
 .letter:hover .light {
@@ -152,6 +152,20 @@ background: #F2F554;
   left: 10px;
 }
 
+#K .top{
+  width: 10px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+}
+
+#K .bottom{
+  width: 20px;
+  height: 50px;
+  bottom: 0px;
+  right: 0px;
+}
+
 #L .top{
   width: 20px;
   height: 80px;
@@ -177,7 +191,7 @@ background: #F2F554;
 }
 
 #M .sticks{
-  t    top: 0px;
+    top: 0px;
     right: 10px;
     border-top: 9px solid #070426;
     border-right: 3px solid #070426;

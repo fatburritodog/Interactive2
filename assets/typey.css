@@ -1,0 +1,490 @@
+body {
+    background-image: url(./sunset.png);
+    background-size: contain;
+    width: 900px;
+    height: 800px;
+    position: absolute;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  width: 75px;
+  height: 90px;
+  margin: 8px;
+}
+
+.letter:hover .light {
+background: #F2F554;
+}
+
+.light {
+    background-color: #4F4A7D;
+    position: absolute;
+    /* light color FAF99E and bg is 3E3A64*/
+}
+
+.dark {
+  background: #070426;
+  position: absolute;
+}
+
+#A .dark.top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 10px;
+}
+
+#A .dark.bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 10px;
+  right: 10px;
+}
+#A .dark.left{
+  width: 55px;
+  height: 90px;
+}
+#A .dark.right{
+  width: 10px;
+  height: 90px;
+  right: 0px;
+}
+
+#B .bottom{
+  width: 10px;
+  height: 40px;
+  bottom: 10px;
+  right: 10px;
+}
+
+#B .top{
+  width: 10px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+}
+
+#B .dark.top {
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 10px;
+}
+#B .dark.middle {
+  width: 10px;
+  height: 10px;
+  top: 30px;
+  right: 10px;
+}
+#B .dark.bottom {
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 10px;
+}
+#B .dark.left {
+  width: 55px;
+  height: 90px;
+}#B .dark.right {
+  width: 10px;
+  height: 90px;
+  right: 0px;
+}
+
+#C .dark.top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 0px;
+}
+#C .dark.bottom {
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 0px;
+}
+#C .dark.left {
+  width: 65px;
+  height: 90px;
+}
+#D .dark.top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 10px;
+}
+#D .dark.bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 10px;
+}
+#D .dark.left{
+  width: 55px;
+  height: 90px;
+}
+#D .dark.right{
+  width: 10px;
+  height: 90px;
+  right: 0px;
+}
+#E .dark.top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 0px;
+}
+
+#E .dark.bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 0px;
+}
+
+#E .dark.middle{
+  width: 10px;
+  height: 10px;
+  top: 40px;
+  right: 0px;
+}
+#E .dark.left{
+  width: 65px;
+  height: 90px;
+}
+
+#F .dark.top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 0px;
+}
+
+#F .dark.middle{
+  width: 10px;
+  height: 10px;
+  top: 40px;
+  right: 0px;
+}
+#F .dark.left{
+  width: 65px;
+  height: 90px;
+}
+
+#G .dark.top{
+  width: 20px;
+  height: 10px;
+  top: 0px;
+  right: 0px;
+}
+
+#G .dark.bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 10px;
+}
+#G .dark.left{
+  width: 55px;
+  height: 90px;
+}
+#G .dark.right{
+  width: 10px;
+  height: 50px;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+#H .dark.bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 10px;
+  right: 10px;
+}
+
+#H .dark.left{
+  width: 55px;
+  height: 90px;
+}
+#H .dark.right{
+  width: 10px;
+  height: 90px;
+  right: 0;
+}
+
+#I .middle{
+  width: 55px;
+  height: 90px;
+  left: 10px;
+}
+
+#J .dark.left{
+  width: 10px;
+  height: 50px;
+  bottom: 0px;
+}
+
+#J .dark.bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  left: 10px;
+}
+#J .dark.right{
+  width: 55px;
+  height: 90px;
+  left: 20px;
+}
+
+#L .dark.left{
+  width: 55px;
+  height: 90px;
+}
+#L .dark.bottom{
+  width: 20px;
+  height: 10px;
+  right: 0;
+  bottom: 0;
+}
+
+#M .dark.left{
+  width: 45px;
+  height: 90px;
+}
+#M .dark.right{
+  width: 10px;
+  height: 90px;
+  right: 0;
+}
+
+#M .dark.stick{
+    top: -1px;
+    right: 21px;
+    width: 10px;
+    height: 30px;
+    transform: rotate(145deg);
+}
+
+#M .dark.sticks{
+    top: 0px;
+    right: 10px;
+    width: 10px;
+    height: 30px;
+    transform: rotate(30deg);
+}
+
+#N .dark.right{
+  right: 0px;
+  height: 90px;
+  width: 10px;
+}
+#N .dark.left{
+  height: 90px;
+  width: 52px;
+}
+
+#N .dark.stick{
+  top: -1px;
+  right: 10px;
+  height: 40px;
+  width: 10px;
+  transform: rotate(145deg);
+}
+
+#O .top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  left: 10px;
+}
+#O .bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  left: 10px;
+}
+#O .left{
+  width: 10px;
+  height: 90px;
+}
+#O .right{
+  width: 55px;
+  height: 90px;
+  left: 20px;
+}
+
+#P .bottom{
+  width: 10px;
+  height: 10px;
+  top: 30px;
+  right: 10px;
+}
+
+#P .top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 10px;
+}
+#P .left{
+  width: 55px;
+  height: 90px;
+}
+#P .right{
+  width: 10px;
+  height: 40px;
+  right: 0px;
+}
+#Q .dark.top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 10px;
+}
+#Q .dark.bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 10px;
+}
+#Q .dark.left{
+  width: 55px;
+  height: 90px;
+}
+#Q .dark.right{
+  width: 10px;
+  height: 90px;
+  right: 0px;
+}
+/*#Q .stick{
+  bottom: -5px;
+  right: 5px;
+  border-top: 15px solid #070426;
+  border-right: 5px solid #070426;
+  border-left: 5px solid #070426;
+  border-bottom: 10px solid #070426;
+  transform: rotate(145deg);
+} */
+
+#Q .stick{
+  bottom: -10px;
+  right: 5px;
+  width: 10px;
+  height: 25px;
+  transform: rotate(180deg);
+}
+#R .bottom{
+  width: 10px;
+  height: 10px;
+  top: 30px;
+  right: 10px;
+}
+
+#R .top{
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  right: 10px;
+}
+#R .left{
+  width: 55px;
+  height: 90px;
+}
+#R .right{
+  width: 10px;
+  height: 40px;
+  right: 0px;
+}
+
+#S .top {
+  width: 50px;
+  height: 10px;
+  right: 0;
+}
+#S .bottom {
+  width: 50px;
+  height: 10px;
+  bottom:0;
+}
+#S .middle {
+  width: 55px;
+  height: 90px;
+  right: 10px;
+  transform: skew(10deg)
+}
+#T .middle {
+  width: 55px;
+  height: 90px;
+  right: 10px;
+}
+#T .right{
+  width: 10px;
+  height: 10px;
+  right: 0px;
+}
+
+#T .left{
+  width: 10px;
+  height: 10px;
+}
+
+#U .bottom{
+  width: 10px;
+  height: 10px;
+  bottom: 0px;
+  right: 10px;
+}
+#U .left {
+  width: 55px;
+  height: 90px;
+}
+#U .right {
+  width: 10px;
+  height: 90px;
+  right: 0;
+}
+
+#V .middle{
+  width: 50px;
+  height: 90px;
+  right: 15px;
+  transform: skew(10deg)
+}
+
+
+#V .right{
+  width: 10px;
+  height: 90px;
+  right: 0;
+}
+#Y .middle{
+  width: 50px;
+  height: 90px;
+  right: 15px;
+  transform: skew(10deg)
+}
+#Y .right {
+  width: 10px;
+  height: 30px;
+  right: 10px;
+  transform: skew(-30deg)
+}
+#Z .top {
+  width: 50px;
+  height: 10px;
+}
+#Z .bottom {
+  width: 50px;
+  height: 10px;
+  right:0;
+  bottom:0;
+}
+#Z .middle {
+  width: 55px;
+  height: 90px;
+  right: 10px;
+  transform: skew(-10deg)
+}
