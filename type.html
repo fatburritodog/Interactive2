@@ -4,18 +4,20 @@
 
 <head>
     <title>
-        casper is my angle
+        nodway
     </title>
     <link rel="stylesheet" href="./assets/typey.css">
 </head>
 
 <body>
-    <div class="letter" id="A">
+
+    <div class="letter big" id="A">
         <div class="dark top"></div>
         <div class="dark bottom"></div>
         <div class="dark left"></div>
         <div class="dark right"></div>
     </div>
+
     <div class="letter" id="B">
         <div class="dark top"></div>
         <div class="dark bottom"></div>
@@ -23,6 +25,7 @@
         <div class="dark left"></div>
         <div class="dark right"></div>
     </div>
+
     <div class="letter" id="C">
         <div class="dark top"></div>
         <div class="dark left"></div>
@@ -65,6 +68,10 @@
         <div class="dark right"></div>
     </div>
     <div class="letter" id="K">
+        <div class="dark left"></div>
+        <div class="dark right"></div>
+        <div class="dark bottom"></div>
+        <div class="dark leg"></div>
 
     </div>
     <div class="letter" id="L">
@@ -107,6 +114,7 @@
         <div class="dark top"></div>
         <div class="dark right"></div>
         <div class="dark bottom"></div>
+        <div class="dark leg"></div>
     </div>
     <div class="letter" id="S">
         <div class="dark top"></div>
@@ -128,30 +136,91 @@
         <div class="dark right"></div>
     </div>
     <div class="letter" id="W">
-
+        <div class="dark left"></div>
+        <div class="dark right"></div>
+        <div class="dark stick"></div>
+        <div class="dark sticks"></div>
     </div>
     <div class="letter" id="X">
-
+        <div class="right dark"></div>
+        <div class="middle dark"></div>
+        <div class="bottom dark"></div>
     </div>
     <div class="letter" id="Y">
         <div class="right dark"></div>
         <div class="middle dark"></div>
+        <div class="bottom dark"></div>
     </div>
     <div class="letter" id="Z">
         <div class="dark top"></div>
         <div class="dark bottom"></div>
         <div class="dark middle"></div>
     </div>
+    <div class="letter" id="zero">
+        <div class="dark top"></div>
+        <div class="dark bottom"></div>
+        <div class="dark left"></div>
+        <div class="dark right"></div>
+        <div class="dark leg"></div>
+    </div>
+    <div class="letter" id="one">
+        <div class="dark left"></div>
+        <div class="dark right"></div>
+        <div class="dark middle"></div>
+    </div>
+    <div class="letter" id="two">
+        <div class="dark top"></div>
+        <div class="dark bottom"></div>
+        <div class="dark middle"></div>
+        <div class="dark stick"></div>
+    </div>
+    <div class="letter" id="three">
+        <div class="dark top"></div>
+        <div class="dark middle"></div>
+        <div class="dark bottom"></div>
+        <div class="dark left"></div>
+    </div>
+    <div class="letter" id="four">
+        <div class="dark left"></div>
+        <div class="dark middle"></div>
+        <div class="dark right"></div>
+    </div>
 
-    <img src="./assets./sunset.png" id="sunset">
+    <div class="letter" id="six">
+        <div class="dark bottom"></div>
+        <div class="dark middle"></div>
+        <div class="dark left"></div>
+        <div class="dark right"></div>
+    </div>
+    <div class="letter" id="seven">
+        <div class="dark top"></div>
+        <div class="dark middle"></div>
+    </div>
+    <div class="letter" id="eight">
+        <div class="dark top"></div>
+        <div class="dark bottom"></div>
+        <div class="dark middle"></div>
+        <div class="dark left"></div>
+        <div class="dark right"></div>
+    </div>
+    <div class="letter" id="nine">
+        <div class="dark bottom"></div>
+        <div class="dark middle"></div>
+        <div class="dark left"></div>
+        <div class="dark right"></div>
+
+    </div>
+
+
+    <div id="sun"></div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script>
         $(document).ready(function() {
             $(document).mousemove(function(event) {
-                $("#sunset").css({
-                    left: event.pageX,
-                    top: event.pageY
+                $("#sun").css({
+                    left: Math.min(document.body.clientWidth - 150, Math.max(0, event.pageX - 75)),
+                    top: Math.min(document.body.clientHeight - 150, Math.max(0, event.pageY - 75))
                 });
             });
         });

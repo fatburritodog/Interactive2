@@ -1,19 +1,35 @@
 body {
-    background-color: #FFF;
+    background: #070426; /* Old browsers */
+    background: -moz-linear-gradient(top,  #070426 0%, #711a89 32%, #c99c20 59%, #f7e285 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #070426 0%,#711a89 32%,#c99c20 59%,#f7e285 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #070426 0%,#711a89 32%,#c99c20 59%,#f7e285 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#070426', endColorstr='#f7e285',GradientType=0 ); /* IE6-9 */
+    min-height: 100vh;
+    min-width: 100vw;
+    cursor: none;
+    white-space: nowrap;
+    margin:0;
 }
 
-#sunset {
-width:300px;
-height:300px;
-position:absolute;
+#sun {
+width:150px;
+height:150px;
+position: absolute;
+top: 0;
+left: 0;
+background: #EFBD18;
+border-radius: 30em;
+box-shadow: 0 0 10px 10px #EFBD18;
 }
 
 .letter {
   display: inline-block;
   position: relative;
-  width: 75px;
-  height: 90px;
-  margin: 8px;
+  width: 7.5em;
+  height: 9em;
+  margin: .8em;
+  transform: scale(1.2 1.2);
+  z-index: 1;
 }
 
 .letter:hover .light {
@@ -31,462 +47,777 @@ background: #F2F554;
   position: absolute;
 }
 
+.big{
+  font-size: 25px;
+}
+
 #A .dark.top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top: 0em;
+  right: 1em;
 }
 
 #A .dark.bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 10px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  bottom: 1em;
+  right: 1em;
 }
 #A .dark.left{
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #A .dark.right{
-  width: 10px;
-  height: 90px;
-  right: 0px;
+  width: 1em;
+  height: 9em;
+  right:0;
 }
 
 #B .bottom{
-  width: 10px;
-  height: 40px;
-  bottom: 10px;
-  right: 10px;
+  width: 1em;
+  height: 4em;
+  bottom: 1em;
+  right: 1em;
 }
 
 #B .top{
-  width: 10px;
-  height: 20px;
-  top: 10px;
-  right: 10px;
+  width: 1em;
+  height: 2em;
+  top: 1em;
+  right: 1em;
 }
 
 #B .dark.top {
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  right: 1em;
 }
 #B .dark.middle {
-  width: 10px;
-  height: 10px;
-  top: 30px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top: 3em;
+  right: 1em;
 }
 #B .dark.bottom {
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right: 1em;
 }
 #B .dark.left {
-  width: 55px;
-  height: 90px;
-}#B .dark.right {
-  width: 10px;
-  height: 90px;
-  right: 0px;
+  width: 5.5em;
+  height: 9em;
+}
+#B .dark.right {
+  width: 1em;
+  height: 9em;
+  right:0;
 }
 
 #C .dark.top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 0px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  right:0;
 }
 #C .dark.bottom {
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  right: 0px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right:0;
 }
 #C .dark.left {
-  width: 65px;
-  height: 90px;
+  width: 6.5em;
+  height: 9em;
 }
 #D .dark.top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  right: 1em;
 }
 #D .dark.bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right: 1em;
 }
 #D .dark.left{
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #D .dark.right{
-  width: 10px;
-  height: 90px;
-  right: 0px;
+  width: 1em;
+  height: 9em;
+  right:0;
 }
 #E .dark.top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 0px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  right:0;
 }
 
 #E .dark.bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  right: 0px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right:0;
 }
 
 #E .dark.middle{
-  width: 10px;
-  height: 10px;
-  top: 40px;
-  right: 0px;
+  width: 1em;
+  height: 1em;
+  top: 4em;
+  right:0;
 }
 #E .dark.left{
-  width: 65px;
-  height: 90px;
+  width: 6.5em;
+  height: 9em;
 }
 
 #F .dark.top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 0px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  right:0;
 }
 
 #F .dark.middle{
-  width: 10px;
-  height: 10px;
-  top: 40px;
-  right: 0px;
+  width: 1em;
+  height: 1em;
+  top: 4em;
+  right:0;
 }
 #F .dark.left{
-  width: 65px;
-  height: 90px;
+  width: 6.5em;
+  height: 9em;
 }
 
 #G .dark.top{
-  width: 20px;
-  height: 10px;
-  top: 0px;
-  right: 0px;
+  width: 2em;
+  height: 1em;
+  top:0;
+  right:0;
 }
 
 #G .dark.bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right: 1em;
 }
 #G .dark.left{
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #G .dark.right{
-  width: 10px;
-  height: 50px;
-  bottom: 0px;
-  right: 0px;
+  width: 1em;
+  height: 5em;
+  bottom:0;
+  right:0;
 }
 
 
 #H .dark.bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 10px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  bottom: 1em;
+  right: 1em;
 }
 
 #H .dark.left{
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #H .dark.right{
-  width: 10px;
-  height: 90px;
+  width: 1em;
+  height: 9em;
   right: 0;
 }
 
 #I .middle{
-  width: 55px;
-  height: 90px;
-  left: 10px;
+  width: 5.5em;
+  height: 9em;
+  left: 1em;
 }
 
 #J .dark.left{
-  width: 10px;
-  height: 50px;
-  bottom: 0px;
+  width: 1em;
+  height: 5em;
+  bottom:0;
 }
 
 #J .dark.bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  left: 10px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  left: 1em;
 }
 #J .dark.right{
-  width: 55px;
-  height: 90px;
-  left: 20px;
+  width: 5.5em;
+  height: 9em;
+  left: 2em;
+}
+
+#K .bottom{
+  width: 1em;
+  height: 1em;
+  top: 3em;
+  right: 1em;
+}
+
+#K .left{
+  width: 5.5em;
+  height: 9em;
+}
+
+#K .right{
+  width: 1em;
+  height: 3.7em;
+  right:0;
+  transform: rotate(24deg);
+}
+
+#K .leg{
+  width: 1em;
+  height: 6em;
+  right:0;
+  top: 3em;
+  transform: rotate(-192deg);
 }
 
 #L .dark.left{
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #L .dark.bottom{
-  width: 20px;
-  height: 10px;
+  width: 2em;
+  height: 1em;
   right: 0;
   bottom: 0;
 }
 
 #M .dark.left{
-  width: 45px;
-  height: 90px;
+  width: 4.5em;
+  height: 9em;
 }
 #M .dark.right{
-  width: 10px;
-  height: 90px;
+  width: 1em;
+  height: 9em;
   right: 0;
 }
 
 #M .dark.stick{
-    top: -1px;
-    right: 21px;
-    width: 10px;
-    height: 30px;
-    transform: rotate(145deg);
+  top: 0;
+right: 2em;
+width: 1em;
+height: 2.5em;
+transform: rotate(135deg);
 }
 
 #M .dark.sticks{
-    top: 0px;
-    right: 10px;
-    width: 10px;
-    height: 30px;
-    transform: rotate(30deg);
+  top: 0;
+  right: 1em;
+  width: 1em;
+  height: 2.5em;
+  transform: rotate(45deg);
 }
 
 #N .dark.right{
-  right: 0px;
-  height: 90px;
-  width: 10px;
+  right:0;
+  height: 9em;
+  width: 1em;
 }
 #N .dark.left{
-  height: 90px;
-  width: 52px;
+  height: 9em;
+  width: 5em;
 }
 
 #N .dark.stick{
-  top: -1px;
-  right: 10px;
-  height: 40px;
-  width: 10px;
-  transform: rotate(145deg);
+  top: 0;
+  right: 1.3em;
+  height: 3.4em;
+  width: 1em;
+  transform: rotate(135deg);
 }
 
 #O .top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  left: 10px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  left: 1em;
 }
 #O .bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  left: 10px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  left: 1em;
 }
 #O .left{
-  width: 10px;
-  height: 90px;
+  width: 1em;
+  height: 9em;
 }
 #O .right{
-  width: 55px;
-  height: 90px;
-  left: 20px;
+  width: 5.5em;
+  height: 9em;
+  left: 2em;
 }
 
 #P .bottom{
-  width: 10px;
-  height: 10px;
-  top: 30px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top: 3em;
+  right: 1em;
 }
 
 #P .top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  right: 1em;
 }
 #P .left{
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #P .right{
-  width: 10px;
-  height: 40px;
-  right: 0px;
+  width: 1em;
+  height: 4em;
+  right:0;
 }
 #Q .dark.top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  right: 1em;
 }
 #Q .dark.bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right: 1em;
 }
 #Q .dark.left{
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #Q .dark.right{
-  width: 10px;
-  height: 90px;
-  right: 0px;
+  width: 1em;
+  height: 9em;
+  right:0;
 }
 /*#Q .stick{
-  bottom: -5px;
-  right: 5px;
-  border-top: 15px solid #070426;
-  border-right: 5px solid #070426;
-  border-left: 5px solid #070426;
-  border-bottom: 10px solid #070426;
+  bottom: -.5em;
+  right: .5em;
+  border-top: 1.5em solid #070426;
+  border-right: .5em solid #070426;
+  border-left: .5em solid #070426;
+  border-bottom: 1em solid #070426;
   transform: rotate(145deg);
 } */
 
 #Q .stick{
-  bottom: -10px;
-  right: 5px;
-  width: 10px;
-  height: 25px;
+  bottom: -1em;
+  right: .5em;
+  width: 1em;
+  height: 2.5em;
   transform: rotate(180deg);
 }
 #R .bottom{
-  width: 10px;
-  height: 10px;
-  top: 30px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top: 3em;
+  right: 1em;
 }
 
 #R .top{
-  width: 10px;
-  height: 10px;
-  top: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  top:0;
+  right: 1em;
 }
 #R .left{
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #R .right{
-  width: 10px;
-  height: 40px;
-  right: 0px;
+  width: 1em;
+  height: 4em;
+  right:0;
+}
+
+#R .leg{
+  width: 1em;
+  height: 6em;
+  right:0;
+  top: 3em;
+  transform: rotate(-192deg);
 }
 
 #S .top {
-  width: 50px;
-  height: 10px;
+  width: 5em;
+  height: 1em;
   right: 0;
 }
 #S .bottom {
-  width: 50px;
-  height: 10px;
+  width: 5em;
+  height: 1em;
   bottom:0;
 }
 #S .middle {
-  width: 55px;
-  height: 90px;
-  right: 10px;
+  width: 5.5em;
+  height: 9em;
+  right: 1em;
   transform: skew(10deg)
 }
 #T .middle {
-  width: 55px;
-  height: 90px;
-  right: 10px;
+  width: 5.5em;
+  height: 9em;
+  right: 1em;
 }
 #T .right{
-  width: 10px;
-  height: 10px;
-  right: 0px;
+  width: 1em;
+  height: 1em;
+  right:0;
 }
 
 #T .left{
-  width: 10px;
-  height: 10px;
+  width: 1em;
+  height: 1em;
 }
 
 #U .bottom{
-  width: 10px;
-  height: 10px;
-  bottom: 0px;
-  right: 10px;
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right: 1em;
 }
 #U .left {
-  width: 55px;
-  height: 90px;
+  width: 5.5em;
+  height: 9em;
 }
 #U .right {
-  width: 10px;
-  height: 90px;
+  width: 1em;
+  height: 9em;
   right: 0;
 }
 
 #V .middle{
-  width: 50px;
-  height: 90px;
-  right: 15px;
+  width: 5em;
+  height: 9em;
+  right: 1.5em;
   transform: skew(10deg)
 }
 
-
 #V .right{
-  width: 10px;
-  height: 90px;
+  width: 1em;
+  height: 9em;
   right: 0;
 }
+
+#W .dark.left{
+  width: 4.5em;
+  height: 9em;
+}
+
+#W .dark.right{
+  width: 1em;
+  height: 9em;
+  right: 0;
+}
+
+#W .dark.stick{
+  bottom: 0;
+right: 1em;
+width: 1em;
+height: 2.5em;
+transform: rotate(135deg);
+}
+
+#W .dark.sticks{
+  bottom: 0;
+  right: 2em;
+  width: 1em;
+  height: 2.5em;
+  transform: rotate(45deg);
+}
+
+#X .middle{
+  width: 5em;
+  height: 9em;
+  right: 1.5em;
+  transform: skew(10deg)
+}
+#X .right {
+  width: 1em;
+  height: 3em;
+  right: 1em;
+  transform: skew(-30deg)
+}
+
+#X .bottom {
+  width: 1em;
+height: 3em;
+bottom: 0;
+transform: skew(-30deg);
+left: .5em;
+}
+
 #Y .middle{
-  width: 50px;
-  height: 90px;
-  right: 15px;
+  width: 5em;
+  height: 9em;
+  right: 1.5em;
   transform: skew(10deg)
 }
 #Y .right {
-  width: 10px;
-  height: 30px;
-  right: 10px;
+  width: 1em;
+  height: 3em;
+  right: 1em;
   transform: skew(-30deg)
 }
 #Z .top {
-  width: 50px;
-  height: 10px;
+  width: 5em;
+  height: 1em;
 }
 #Z .bottom {
-  width: 50px;
-  height: 10px;
+  width: 5em;
+  height: 1em;
   right:0;
   bottom:0;
 }
 #Z .middle {
-  width: 55px;
-  height: 90px;
-  right: 10px;
+  width: 5.5em;
+  height: 9em;
+  right: 1em;
   transform: skew(-10deg)
+}
+
+#zero .top{
+  width: 1em;
+  height: 1em;
+  top:0;
+  left: 1em;
+}
+#zero .bottom{
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  left: 1em;
+}
+#zero .left{
+  width: 1em;
+  height: 9em;
+}
+#zero .right{
+  width: 5.5em;
+  height: 9em;
+  left: 2em;
+}
+#zero .leg{
+  width: 1em;
+  height: 6em;
+  left:0;
+  top: 3em;
+  transform: rotate(92deg);
+}
+
+#one .middle {
+  width: 5.5em;
+  height: 9em;
+  right: 1em;
+}
+#one .right{
+  width: 7em;
+  height: 1em;
+  bottom:0;
+}
+
+#one .left{
+  width: 1em;
+  height: 1em;
+}
+
+#two .top {
+  width: 5em;
+  height: 1em;
+}
+#two .bottom {
+  width: 5em;
+  height: 1em;
+  right:0;
+  bottom:0;
+}
+#two .middle {
+  width: 5.5em;
+  height: 9em;
+  right: 1em;
+  transform: skew(-10deg)
+}
+
+#two .stick{
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1.5em;
+}
+
+#three .dark.top{
+  width: 1em;
+  height: 1em;
+  top:0;
+  left:0;
+}
+
+#three .dark.bottom{
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  left:0;
+}
+
+#three .dark.middle{
+  width: 1em;
+  height: 1em;
+  top: 4em;
+  left:0;
+}
+#three .dark.left{
+  width: 6.5em;
+  height: 9em;
+  left: 1em;
+}
+
+#four .dark.left{
+  width: 6.5em;
+  height: 9em;
+  left: 2em;
+}
+
+#four .dark.middle{
+  width: 2em;
+  height: 1em;
+  top: 4em;
+  left:0;
+}
+
+#four .dark.right{
+  left:0;
+  height: 4em;
+  width: 1em;
+}
+
+#six .bottom{
+  width: 1em;
+  height: 4em;
+  bottom: 1em;
+  right: 1em;
+}
+
+#six .dark.middle {
+  width: 1em;
+  height: 1em;
+  top: 6em;
+  right: 1em;
+}
+#six .dark.bottom {
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right: 1em;
+}
+#six .dark.left {
+  width: 5.5em;
+  height: 9em;
+}
+#six .dark.right {
+  width: 1em;
+height: 3em;
+right: 0;
+top: 6em;
+}
+
+#seven .top {
+  width: 5em;
+  height: 1em;
+}
+
+#seven .middle {
+  width: 5.5em;
+  height: 9em;
+  right: 1em;
+  transform: skew(-10deg)
+}
+
+#eight .bottom{
+  width: 1em;
+  height: 4em;
+  bottom: 1em;
+  left: 1em;
+}
+
+#eight .top{
+  width: 1em;
+  height: 2em;
+  top: 1em;
+  left: 1em;
+}
+
+#eight .dark.top {
+  width: 1em;
+  height: 1em;
+  top:0;
+  left: 1em;
+}
+#eight .dark.middle {
+  width: 1em;
+  height: 1em;
+  top: 3em;
+  left: 1em;
+}
+#eight .dark.bottom {
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  left: 1em;
+}
+#eight .dark.left {
+  width: 5.5em;
+  height: 9em;
+  right: 0;
+}
+#eight .dark.right {
+  width: 1em;
+  height: 9em;
+  left:0;
+}
+#nine .bottom{
+  width: 1em;
+  height: 4em;
+  top: 0;
+  right: 1em;
+}
+
+#nine .dark.middle {
+  width: 1em;
+  height: 1em;
+  top: 3em;
+  right: 1em;
+}
+#nine .dark.bottom {
+  width: 1em;
+  height: 1em;
+  bottom:0;
+  right: 1em;
+}
+#nine .dark.left {
+  width: 5.5em;
+  height: 9em;
+}
+#nine .dark.right {
+  width: 1em;
+  height: 4em;
+  right:0;
 }
