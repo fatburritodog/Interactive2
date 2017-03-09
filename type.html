@@ -12,7 +12,7 @@
 <body>
     <div class="backgrounds">
         <div class="sunrise"></div>
-        <div class="night"></div>
+        <div class="night" id="knight"></div>
     </div>
     <div class="container">
 
@@ -542,6 +542,14 @@
                     $("#sun").removeClass('moon');
                 }
             });
+
+            for (var i = 0; i < 300; i++) {
+                var top = Math.random() * 400;
+                var left = Math.random() * 5000;
+                var width = Math.random() * 10;
+                var color = ["#CCC9E5", "#EBF8CC", "#F1CCF8", "#FAF3C3"][Math.floor(Math.random() * 4)]
+                $("#knight").append($('<div style="background:' + color + ';top:' + top + 'px;left:' + left + 'px;width:' + width + 'px;height:' + width + 'px" class="star"></div>'))
+            }
         });
     </script>
 
