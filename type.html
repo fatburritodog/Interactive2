@@ -521,9 +521,43 @@
                 <div class="dark middle"></div>
                 <div class="dark left"></div>
                 <div class="dark right"></div>
-
             </div>
+            <div class="letter" id="exclamation">
+                <div class="dark middle"></div>
+                <div class="dark bottom"></div>
+            </div>
+            <div class="letter" id="comma">
+                <div class="dark middle"></div>
+                <div class="dark bottom"></div>
+            </div>
+
+            <div class="letter" id="period">
+                <div class="dark bottom"></div>
+            </div>
+
+            <div class="letter" id="quote-right-one">
+                <div class="dark middle"></div>
+                <div class="dark bottom"></div>
+            </div>
+            <div class="letter" id="quote-right-two">
+                <div class="dark middle"></div>
+                <div class="dark bottom"></div>
+            </div>
+
+            <div class="letter" id="quote-left-one">
+                <div class="dark middle"></div>
+                <div class="dark bottom"></div>
+            </div>
+            <div class="letter" id="quote-left-two">
+                <div class="dark middle"></div>
+                <div class="dark bottom"></div>
+            </div>
+
+
+
+
         </div>
+    </div>
 
     </div>
     <div id="sun"></div>
@@ -545,7 +579,7 @@
 
             for (var i = 0; i < 300; i++) {
                 var top = Math.random() * 400;
-                var left = Math.random() * 5200;
+                var left = Math.random() * 5800;
                 var width = Math.random() * 10;
                 var color = ["#CCC9E5", "#EBF8CC", "#F1CCF8", "#FAF3C3"][Math.floor(Math.random() * 4)]
                 $("#knight").append($('<div style="background:' + color + ';top:' + top + 'px;left:' + left + 'px;width:' + width + 'px;height:' + width + 'px" class="star"></div>'))

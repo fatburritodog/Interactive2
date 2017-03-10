@@ -46,7 +46,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#070426', endColorstr='#f7e285',GradientType=0 ); /* IE6-9 */
 }
 .night {
-  width: 5200px;
+  width: 5800px;
   background: #070426; /* Old browsers */
   background: -moz-linear-gradient(top,  #1D1852 0%, #0F0B3A 32%, #070426 59%, #070426 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  #1D1852 0%, #0F0B3A 32%, #070426 59%, #070426 100%); /* Chrome10-25,Safari5.1-6 */
@@ -932,4 +932,155 @@ top: 6em;
   width: 1em;
   height: 4em;
   right:0;
+}
+
+#exclamation .middle{
+  width: 5.5em;
+  height: 6em;
+  left: 1em;
+}
+
+#exclamation .bottom{
+  width: 4.5em;
+  height: 2em;
+  left: 1.5em;
+  bottom: 0em;
+}
+
+#comma {
+  margin-bottom: 1em;
+}
+
+#comma .bottom{
+  width: 5em;
+  height: 3em;
+  left: 1.5em;
+  bottom: 0em;
+}
+
+#comma .middle{
+  bottom: -1em;
+  left: 3.5em;
+  width: 1em;
+  height: 2.5em;
+  /*transform: rotate(200deg);*/
+  transform: skewX(-45deg);
+}
+
+#comma {
+  margin-bottom: 1em;
+}
+
+#comma .bottom{
+  width: 5em;
+  height: 3em;
+  left: 1.5em;
+  bottom: 0em;
+}
+
+#comma .middle{
+  bottom: -1em;
+  left: 3.5em;
+  width: 1em;
+  height: 2.5em;
+  /*transform: rotate(200deg);*/
+  transform: skewX(-45deg);
+}
+
+
+#quote-left-one {
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: -2em;
+}
+
+#quote-left-one  .bottom{
+  width: 5em;
+  height: 3em;
+  left: 1.5em;
+  top: 0em;
+}
+
+#quote-left-one  .middle{
+  top: 1.5em;
+  left: 3.5em;
+  width: 1em;
+  height: 2.5em;
+  /*transform: rotate(200deg);*/
+  transform: skewX(-45deg);
+}
+
+#quote-left-two {
+  margin-bottom: 1em;
+  margin-left: 0;
+}
+
+#quote-left-two  .bottom{
+  width: 5em;
+  height: 3em;
+  left: 1.5em;
+  top: 0em;
+}
+
+#quote-left-two  .middle{
+  top: 1.5em;
+  left: 3.5em;
+  width: 1em;
+  height: 2.5em;
+  /*transform: rotate(200deg);*/
+  transform: skewX(-45deg);
+}
+
+#quote-right-one {
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: -2em;
+}
+
+#quote-right-one  .bottom{
+  width: 5em;
+  height: 3em;
+  right: 1.5em;
+  top: 0em;
+}
+
+#quote-right-one  .middle{
+  top: -1em;
+  right: 3.5em;
+  width: 1em;
+  height: 2.5em;
+  /*transform: rotate(200deg);*/
+  transform: skewX(-45deg);
+}
+
+#quote-right-two {
+  margin-bottom: 1em;
+  margin-left: 0;
+}
+
+#quote-right-two  .bottom{
+  width: 5em;
+  height: 3em;
+  right: 1.5em;
+  top: 0em;
+}
+
+#quote-right-two  .middle{
+  top: -1em;
+  right: 3.5em;
+  width: 1em;
+  height: 2.5em;
+  /*transform: rotate(200deg);*/
+  transform: skewX(-45deg);
+}
+
+#period {
+  margin-bottom: 1em;
+}
+
+#period .bottom{
+  width: 5em;
+  height: 3em;
+  left: 1.5em;
+  bottom: 0em;
 }
