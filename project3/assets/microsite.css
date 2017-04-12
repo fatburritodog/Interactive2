@@ -1,0 +1,182 @@
+html,body {
+  margin:0;
+  height: 100%;
+}
+
+.title{
+  height: 700px;
+  background: #000;
+  transition: background 7s ease-in;
+  font-size: 150px;
+  text-align: center;
+  font-family: 'Didot';
+}
+.title.loaded{
+  background: #FFF;
+}
+
+#opener{
+  height: 700px;
+  font-size: 40px;
+  font-family: 'Didot';
+  position: relative;
+}
+
+.lifeless{
+  position: absolute;
+  left: 350px;
+  top: 100px;
+  animation-delay: 9s;
+}
+.stoic{
+  position: absolute;
+  left: 450px;
+    top: 200px;
+      animation-delay: 11s;
+}
+.stiff{
+  position: absolute;
+  left: 520px;
+    top: 300px;
+      animation-delay: 13s;
+}
+
+.sentence{
+  position: absolute;
+  font-size: 18px;
+  left: 600px;
+  top: 400px;
+  animation-delay: 15s;
+}
+
+#opener img {
+  position: absolute;
+  animation-delay: 9s;
+  animation-duration: 3s;
+}
+
+.fadefromblack{
+  position: relative;
+  height: 700px;
+  background: #000;
+  transition: background 2s ease-in;
+}
+
+.fadefromblack.loaded{
+  background: #FFF;
+}
+
+.model{
+  position: relative;
+  width: 56%;
+  left: 480px;
+  cursor: move;
+}
+
+.model img {
+  position: absolute;
+  max-width: 100%;
+}
+
+.fade-out {
+  transition: 5s ease-in-out;
+  opacity: 1;
+}
+
+.fade-out:hover {
+  opacity: 0;
+}
+
+
+.modeltwo{
+  position: relative;
+  width: 50%;
+}
+
+.modeltwo img {
+  position: absolute;
+  max-width: 100%;
+}
+
+#thirdp{
+  font-size: 18px;
+  font-family: 'Didot';
+  position: absolute;
+  color: #9E9C9C;
+  left: 700px;
+  top: 40px;
+  width: 300px;
+}
+
+.fadefromwhite{
+  height: 700px;
+  background: #FFF;
+  transition: background 9s ease-in;
+}
+
+.fadefromwhite.loaded{
+  background: #FFF;
+}
+
+.fade-out {
+  transition: opacity 9s ease-in-out;
+  opacity: 1;
+}
+
+.fade-out:hover {
+  opacity: 0;
+}
+
+.firstp{
+  font-size: 30px;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  font-family: 'Didot';
+  color: #CA163C;
+}
+
+#words{
+  font-size: 30px;
+  position: absolute;
+  left: 100px;
+  font-family: 'Didot';
+  color: #000;
+}
+.movement{
+  top: 200px;
+  animation-delay: 2s;
+}
+
+.intimacy{
+  top: 300px;
+animation-delay: 4s;
+}
+
+.space{
+  top: 400px;
+  animation-delay: 6s;
+}
+
+.form{
+  top: 500px;
+  animation-delay: 7s;
+}
+
+.sentence2{
+  top: 450px;
+  animation-delay: 8s;
+  font-size: 18px;
+}
+
+a{
+  color: #CA163C;
+}
+
+a:visited{
+  color: #CA163C;
+}
+
+a:hover{
+  color: #B4A568;
+}
