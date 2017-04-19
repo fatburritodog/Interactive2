@@ -1,6 +1,13 @@
+#gradient{
+  background: #000; /* Old browsers */
+  background: -moz-linear-gradient(top,  #FFF 0%, #787878 32%, #2E2E2E 59%, #000 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #FFF 0%, #787878 32%, #2E2E2E 59%, #000 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #FFF 0%, #787878 32%, #2E2E2E 59%, #000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#000',GradientType=0 ); /* IE6-9 */
+}
+
 html,body {
   margin:0;
-  height: 100%;
 }
 
 .title{
@@ -15,30 +22,33 @@ html,body {
   background: #FFF;
 }
 
+#third, #fourth, #fifth, #sixth, #seventh, #eighth {
+  position: relative;
+}
+
 #opener{
   height: 700px;
   font-size: 40px;
   font-family: 'Didot';
   position: relative;
 }
-
 .lifeless{
   position: absolute;
   left: 350px;
   top: 100px;
-  animation-delay: 9s;
+  animation-duration: 2s;
 }
 .stoic{
   position: absolute;
-  left: 450px;
-    top: 200px;
-      animation-delay: 11s;
+  left: 510px;
+  top: 100px;
+  animation-duration: 2.5s;
 }
 .stiff{
   position: absolute;
-  left: 520px;
-    top: 300px;
-      animation-delay: 13s;
+  left: 625px;
+  top: 100px;
+  animation-duration: 2.7s;
 }
 
 .sentence{
@@ -46,31 +56,33 @@ html,body {
   font-size: 18px;
   left: 600px;
   top: 400px;
-  animation-delay: 15s;
+  animation-delay: 2s;
 }
 
 #opener img {
   position: absolute;
   animation-delay: 9s;
   animation-duration: 3s;
+  margin-bottom: 100px;
 }
 
-.fadefromblack{
+#second{
   position: relative;
-  height: 700px;
-  background: #000;
+  height: 900px;
   transition: background 2s ease-in;
+  margin-top: 100px;
 }
 
-.fadefromblack.loaded{
-  background: #FFF;
+#second:hover .fade-out {
+  opacity: 0;
 }
 
 .model{
   position: relative;
   width: 56%;
-  left: 480px;
+  left: 500px;
   cursor: move;
+  top: 90px;
 }
 
 .model img {
@@ -78,8 +90,53 @@ html,body {
   max-width: 100%;
 }
 
+#words{
+  font-size: 35px;
+  position: absolute;
+  left: 100px;
+  font-family: 'Didot';
+  color: #000;
+}
+
+.movement{
+  position: absolute;
+  left: -20px;
+  top: 50px;
+  animation-delay: 2s;
+}
+.intimacy{
+  position: absolute;
+  left: 80px;
+  top: 110px;
+      animation-delay: 2s;
+}
+.space{
+  position: absolute;
+  left: 190px;
+  top: 170px;
+  animation-delay: 2s;
+}
+
+.form{
+  position: absolute;
+  left: 230px;
+  top: 230px;
+  animation-delay: 2s;
+  width: 160px;
+}
+.sentence2{
+  position: absolute;
+  font-size: 18px;
+  left: 432px;
+  top: 243px;
+  animation-delay: 2s;
+  width: 400px;
+  font-family: 'Times New Roman';
+}
+
+
 .fade-out {
-  transition: 5s ease-in-out;
+  transition: all 5s ease-in-out;
   opacity: 1;
 }
 
@@ -87,10 +144,29 @@ html,body {
   opacity: 0;
 }
 
+#third{
+  position: relative;
+  height: 1300px;
+  margin-top: 100px;
+}
+
+#third:hover .fade-out {
+  opacity: 0;
+}
+
+#thirdp{
+  font-size: 18px;
+  font-family: 'Times new Roman';
+  position: absolute;
+  color: #000;
+  left: 700px;
+  top: 40px;
+  width: 300px;
+}
 
 .modeltwo{
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .modeltwo img {
@@ -98,28 +174,8 @@ html,body {
   max-width: 100%;
 }
 
-#thirdp{
-  font-size: 18px;
-  font-family: 'Didot';
-  position: absolute;
-  color: #9E9C9C;
-  left: 700px;
-  top: 40px;
-  width: 300px;
-}
-
-.fadefromwhite{
-  height: 700px;
-  background: #FFF;
-  transition: background 9s ease-in;
-}
-
-.fadefromwhite.loaded{
-  background: #FFF;
-}
-
 .fade-out {
-  transition: opacity 9s ease-in-out;
+  transition: opacity 5s ease-in-out;
   opacity: 1;
 }
 
@@ -136,37 +192,26 @@ html,body {
   color: #CA163C;
 }
 
-#words{
-  font-size: 30px;
+
+#sixth{
+
+}
+
+.doublemodel{
+  position: relative;
+  width: 56%;
+  left: 480px;
+  cursor: move;
+}
+
+.doublemodel img {
   position: absolute;
-  left: 100px;
+  max-width: 100%;
+}
+
+.SFMOMA{
+  font-size: 25px;
   font-family: 'Didot';
-  color: #000;
-}
-.movement{
-  top: 200px;
-  animation-delay: 2s;
-}
-
-.intimacy{
-  top: 300px;
-animation-delay: 4s;
-}
-
-.space{
-  top: 400px;
-  animation-delay: 6s;
-}
-
-.form{
-  top: 500px;
-  animation-delay: 7s;
-}
-
-.sentence2{
-  top: 450px;
-  animation-delay: 8s;
-  font-size: 18px;
 }
 
 a{
