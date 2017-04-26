@@ -4,10 +4,12 @@
   background: -webkit-linear-gradient(top,  #FFF 0%, #787878 32%, #2E2E2E 59%, #000 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #FFF 0%, #787878 32%, #2E2E2E 59%, #000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#000',GradientType=0 ); /* IE6-9 */
+height: 10000px;
 }
 
 html,body {
   margin:0;
+  height: 10000px;
 }
 
 .title{
@@ -17,47 +19,46 @@ html,body {
   font-size: 150px;
   text-align: center;
   font-family: 'Didot';
+
 }
 .title.loaded{
   background: #FFF;
 }
 
-#third, #fourth, #fifth, #sixth, #seventh, #eighth {
+#third, #fourth, #sixth, #seventh, #eighth {
   position: relative;
 }
 
 #opener{
-  height: 700px;
+  height: 900px;
   font-size: 40px;
   font-family: 'Didot';
   position: relative;
 }
+
+
 .lifeless{
   position: absolute;
   left: 350px;
   top: 100px;
   animation-duration: 2s;
+  animation-delay: 10s;
 }
 .stoic{
   position: absolute;
   left: 510px;
   top: 100px;
   animation-duration: 2.5s;
+  animation-delay: 10s;
 }
 .stiff{
   position: absolute;
   left: 625px;
   top: 100px;
   animation-duration: 2.7s;
+  animation-delay: 10s;
 }
 
-.sentence{
-  position: absolute;
-  font-size: 18px;
-  left: 600px;
-  top: 400px;
-  animation-delay: 2s;
-}
 
 #opener img {
   position: absolute;
@@ -69,7 +70,7 @@ html,body {
 #second{
   position: relative;
   height: 900px;
-  transition: background 2s ease-in;
+  transition: background 4s ease-in;
   margin-top: 100px;
 }
 
@@ -81,7 +82,6 @@ html,body {
   position: relative;
   width: 56%;
   left: 500px;
-  cursor: move;
   top: 90px;
 }
 
@@ -91,7 +91,7 @@ html,body {
 }
 
 #words{
-  font-size: 35px;
+  font-size: 85px;
   position: absolute;
   left: 100px;
   font-family: 'Didot';
@@ -103,40 +103,52 @@ html,body {
   left: -20px;
   top: 50px;
   animation-delay: 2s;
+  color: #CA163C;
 }
 .intimacy{
   position: absolute;
   left: 80px;
-  top: 110px;
-      animation-delay: 2s;
+  top: 150px;
+  animation-delay: 3.5s;
+  color: #CA163C;
 }
 .space{
   position: absolute;
   left: 190px;
-  top: 170px;
-  animation-delay: 2s;
+  top: 250px;
+  animation-delay: 4.5s;
+  color: #fff;
 }
 
 .form{
   position: absolute;
-  left: 230px;
-  top: 230px;
-  animation-delay: 2s;
-  width: 160px;
+  left: 270px;
+  top: 350px;
+  animation-delay: 5.5s;
+  width: 600px;
+  color: #fff;
 }
-.sentence2{
+/*.sentence2{
   position: absolute;
   font-size: 18px;
   left: 432px;
   top: 243px;
   animation-delay: 2s;
   width: 400px;
-  font-family: 'Times New Roman';
+  font-family: 'adobe caslon ';
+}*/
+
+
+.animTriggerOnHover:hover .animOnHover {
+  animation-play-state: running;
 }
 
+.animOnHover {
+  animation-play-state: paused;
+}
 
 .fade-out {
-  transition: all 5s ease-in-out;
+  transition: all 4s ease-in-out;
   opacity: 1;
 }
 
@@ -146,8 +158,9 @@ html,body {
 
 #third{
   position: relative;
-  height: 1300px;
+  height: 1000px;
   margin-top: 100px;
+
 }
 
 #third:hover .fade-out {
@@ -155,18 +168,21 @@ html,body {
 }
 
 #thirdp{
-  font-size: 18px;
-  font-family: 'Times new Roman';
+  font-size: 200px;
+  font-family: 'didot';
   position: absolute;
-  color: #000;
-  left: 700px;
-  top: 40px;
+  color: #fff;
+  left: 400px;
+  top: 0px;
   width: 300px;
+  letter-spacing: 40px;
+
 }
 
 .modeltwo{
   position: relative;
-  width: 100%;
+  width: 75%;
+  left: 70px;
 }
 
 .modeltwo img {
@@ -174,39 +190,248 @@ html,body {
   max-width: 100%;
 }
 
+/*.modeltwo{
+  position: relative;
+  width: 50%;
+}
+
+.modeltwo img {
+  position: absolute;
+  max-width: 100%;
+}*/
+
+#fourth{
+  height: 900px;
+  margin-bottom: 50px;
+}
+
+#fourth:hover .fade-out {
+  opacity: 0;
+}
+
+#fourthp{
+  position: absolute;
+  font-size: 60px;
+  left: 240px;
+  top: 280px;
+  width: 400px;
+  font-family: 'adobe caslon';
+}
+
+.fourthpp{
+  position: absolute;
+  font-size: 60px;
+  left: 240px;
+  top: 190px;
+  width: 400px;
+  font-family: 'adobe caslon';
+  animation-duration: 4s;
+  animation-delay: 7s;
+  color: #CA163C;
+}
+
+.modelfour{
+  position: relative;
+  width: 100%;
+  left: 0px;
+
+  top: 90px;
+}
+
+.modelfour img {
+  position: absolute;
+  max-width: 100%;
+}
+
 .fade-out {
-  transition: opacity 5s ease-in-out;
+  transition: opacity 4s ease-in-out;
   opacity: 1;
+}
+
+
+#sixth{
+  height: 900px;
+  margin-bottom: 50px;
+}
+
+#sixth:hover .fade-out {
+  opacity: 0;
+}
+
+#sixthp{
+  font-size: 100px;
+  font-family: 'didot';
+  position: absolute;
+  color: #fff;
+  left: 400px;
+  top: 240px;
+}
+
+.modelfive img {
+  position: absolute;
+  max-width: 100%;
+}
+
+.modelfive{
+  position: relative;
+  width: 100%;
+  top: 90px;
+  opacity: 0;
+}
+
+.modelfivetwo{
+  position: relative;
+  width: 100%;
+  left: 600px;
+
+  top: 90px;
+  transition: opacity 1s ease 1s;
+}
+
+.modelfivethree{
+  position: relative;
+  width: 100%;
+  left: 350px;
+  top: 90px;
+  transition: opacity 1s ease 2s;
+}
+
+
+#seventh{
+  height: 1250px;
+  margin-bottom: 20px;
+  left: 20px;
+}
+
+#seventh:hover .fade-out {
+  opacity: 0;
+}
+
+#sevenwords:hover .swing{
+
+}
+
+.seventhp{
+  font-size: 100px;
+  font-family: 'didot';
+  position: absolute;
+  color: #fff;
+  left: 70px;
+  top: 240px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.seventhpp {
+  font-size: 100px;
+  font-family: 'didot';
+  position: absolute;
+  color: #CA163C;
+  left: 100px;
+  top: 380px;
+  animation-delay: 3s;
+  animation-duration: 6s;
+}
+
+.seventhppp {
+  font-size: 110px;
+  font-family: 'didot';
+  position: absolute;
+  color: #000;
+  left: 80px;
+  top: 500px;
+  animation-delay: 4s;
+  animation-duration: 10s;
+}
+
+.modelseven{
+  position: relative;
+  width: 100%;
+  left: 300px;
+}
+.modelseven img {
+  position: absolute;
+  max-width: 100%;
 }
 
 .fade-out:hover {
   opacity: 0;
 }
 
-.firstp{
-  font-size: 30px;
-  position: absolute;
-  top: 120px;
-  left: 100px;
-  font-family: 'Didot';
-  color: #CA163C;
-}
-
-
-#sixth{
-
-}
 
 .doublemodel{
   position: relative;
-  width: 56%;
+  width: 50%;
   left: 480px;
-  cursor: move;
+
 }
 
 .doublemodel img {
   position: absolute;
   max-width: 100%;
+}
+
+#eigth{
+  height: 1300px;
+}
+#eigth:hover .fade-out {
+  opacity: 0;
+}
+
+
+.modeleight{
+  position: relative;
+  width: 50%;
+  left: 480px;
+
+}
+
+.modeleight img {
+  position: absolute;
+  max-width: 100%;
+}
+
+#tenth{
+  height: 900px;
+  margin-bottom: 50px;
+}
+
+#tenth:hover .fade-out {
+  opacity: 0;
+}
+
+.modelten{
+  position: relative;
+  width: 100%;
+  left: 0px;
+  top: 90px;
+}
+
+.modelten img {
+  position: absolute;
+  max-width: 100%;
+}
+#end{
+  background: #fff;
+  color: #000;
+  padding-top: 140px;
+  height: 600px;
+  background: #000; /* Old browsers */
+  background: -moz-linear-gradient(top,  #000 0%, #2E2E2E 32%, #787878 59%, #FFF 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #000 0%, #2E2E2E 32%, #787878 59%, #FFF 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #000 0%, #2E2E2E 32%, #787878 59%, #FFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.border1{
+padding-top: 200px;
+}
+
+.paragraph{
+font-family: 'Gotham Pro';
+font-size: 20px;
+width: 620px;
+padding-left: 30px;
+line-height: 30px;
 }
 
 .SFMOMA{
