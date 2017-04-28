@@ -353,8 +353,8 @@
 
 @-webkit-keyframes swing {
   20% {
-    -webkit-transform: rotate3d(0, 0, 1, 180deg);
-    transform: rotate3d(0, 0, 1, 180deg);
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
     /*15 deg*/
   }
 
@@ -369,8 +369,8 @@
   }
 
   80% {
-    -webkit-transform: rotate3d(0, 0, 1, -55deg);
-    transform: rotate3d(0, 0, 1, -55deg);
+    -webkit-transform: rotate3d(0, 0, 1, -9deg);
+    transform: rotate3d(0, 0, 1, -9deg);
   }
 
   to {
@@ -381,8 +381,8 @@
 
 @keyframes swing {
   20% {
-    -webkit-transform: rotate3d(0, 0, 1, 90deg);
-    transform: rotate3d(0, 0, 1, 90deg);
+    -webkit-transform: rotate3d(0, 0, 1, 9deg);
+    transform: rotate3d(0, 0, 1, 9deg);
     /*15 deg*/
   }
 
@@ -397,8 +397,8 @@
   }
 
   80% {
-    -webkit-transform: rotate3d(0, 0, 1, -55deg);
-    transform: rotate3d(0, 0, 1, -55deg);
+    -webkit-transform: rotate3d(0, 0, 1, -9deg);
+    transform: rotate3d(0, 0, 1, -9deg);
   }
 
   to {
@@ -3101,8 +3101,8 @@
   }
 
   to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 100, 0);
+    transform: translate3d(0, 100, 0);
   }
 }
 
@@ -3114,8 +3114,8 @@
   }
 
   to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 100, 100);
+    transform: translate3d(0, 1000, 100);
   }
 }
 

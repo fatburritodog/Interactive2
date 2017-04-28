@@ -4,7 +4,7 @@
   background: -webkit-linear-gradient(top,  #FFF 0%, #787878 32%, #2E2E2E 59%, #000 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #FFF 0%, #787878 32%, #2E2E2E 59%, #000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#000',GradientType=0 ); /* IE6-9 */
-height: 10000px;
+  height: 8800px;
 }
 
 html,body {
@@ -103,21 +103,21 @@ html,body {
   left: -20px;
   top: 50px;
   animation-delay: 2s;
-  color: #CA163C;
+  color: #fff;
 }
 .intimacy{
   position: absolute;
   left: 80px;
   top: 150px;
   animation-delay: 3.5s;
-  color: #CA163C;
+  color: #fff;
 }
 .space{
   position: absolute;
   left: 190px;
   top: 250px;
   animation-delay: 4.5s;
-  color: #fff;
+  color: #99172E;
 }
 
 .form{
@@ -126,7 +126,7 @@ html,body {
   top: 350px;
   animation-delay: 5.5s;
   width: 600px;
-  color: #fff;
+  color: #99172E;
 }
 /*.sentence2{
   position: absolute;
@@ -158,7 +158,7 @@ html,body {
 
 #third{
   position: relative;
-  height: 1000px;
+  height: 1200px;
   margin-top: 100px;
 
 }
@@ -201,7 +201,7 @@ html,body {
 }*/
 
 #fourth{
-  height: 900px;
+  height: 1100px;
   margin-bottom: 50px;
 }
 
@@ -215,7 +215,7 @@ html,body {
   left: 240px;
   top: 280px;
   width: 400px;
-  font-family: 'adobe caslon';
+  font-family: 'didot';
 }
 
 .fourthpp{
@@ -224,17 +224,16 @@ html,body {
   left: 240px;
   top: 190px;
   width: 400px;
-  font-family: 'adobe caslon';
-  animation-duration: 4s;
-  animation-delay: 7s;
-  color: #CA163C;
+  font-family: 'didot';
+  animation-duration: 8s;
+  animation-delay: 4s;
+  color: #99172E;
 }
 
 .modelfour{
   position: relative;
   width: 100%;
   left: 0px;
-
   top: 90px;
 }
 
@@ -250,7 +249,7 @@ html,body {
 
 
 #sixth{
-  height: 900px;
+  height: 1200px;
   margin-bottom: 50px;
 }
 
@@ -259,6 +258,8 @@ html,body {
 }
 
 #sixthp{
+  animation-duration: 5s;
+  animation-delay: 3s;
   font-size: 100px;
   font-family: 'didot';
   position: absolute;
@@ -276,25 +277,26 @@ html,body {
   position: relative;
   width: 100%;
   top: 90px;
-  opacity: 0;
+  opacity: 1;
+  animation-delay: 2s;
+  animation-duration: 9s;
 }
 
 .modelfivetwo{
   position: relative;
   width: 100%;
   left: 600px;
-
   top: 90px;
   transition: opacity 1s ease 1s;
 }
 
-.modelfivethree{
+/*.modelfivethree{
   position: relative;
   width: 100%;
   left: 350px;
   top: 90px;
   transition: opacity 1s ease 2s;
-}
+}*/
 
 
 #seventh{
@@ -326,7 +328,7 @@ html,body {
   font-size: 100px;
   font-family: 'didot';
   position: absolute;
-  color: #CA163C;
+  color: #99172E;
   left: 100px;
   top: 380px;
   animation-delay: 3s;
@@ -378,6 +380,112 @@ html,body {
   opacity: 0;
 }
 
+.eightp{
+  font-size: 110px;
+  font-family: 'didot';
+  position: absolute;
+  color: #FFF;
+  left: 200px;
+  top: 300px;
+  animation-delay: 3s;
+  animation-duration: 10s;
+}
+
+.eightpp{
+  font-size: 110px;
+  font-family: 'didot';
+  position: absolute;
+  color: #FFF;
+  left: 200px;
+  top: 300px;
+  opacity: 0;
+  transition: opacity 3s ease-in-out 3s;
+  animation-delay: 3s;
+}
+
+.animated.bounceIn {
+  -webkit-animation-duration: 3s;
+  animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.animTriggerOnHover:hover .eightpp{
+  opacity: 1;
+}
 
 .modeleight{
   position: relative;
@@ -392,12 +500,23 @@ html,body {
 }
 
 #tenth{
-  height: 900px;
+  height: 1080px;
   margin-bottom: 50px;
 }
 
 #tenth:hover .fade-out {
   opacity: 0;
+}
+
+.tenthp{
+  font-size: 140px;
+  font-family: 'didot';
+  position: absolute;
+  color: #fff;
+  left: 100px;
+  top: 280px;
+  animation-delay: 2s;
+  animation-duration: 15s;
 }
 
 .modelten{
@@ -412,14 +531,7 @@ html,body {
   max-width: 100%;
 }
 #end{
-  background: #fff;
-  color: #000;
-  padding-top: 140px;
-  height: 600px;
-  background: #000; /* Old browsers */
-  background: -moz-linear-gradient(top,  #000 0%, #2E2E2E 32%, #787878 59%, #FFF 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #000 0%, #2E2E2E 32%, #787878 59%, #FFF 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #000 0%, #2E2E2E 32%, #787878 59%, #FFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #000;
 }
 
 .border1{
@@ -428,25 +540,40 @@ padding-top: 200px;
 
 .paragraph{
 font-family: 'Gotham Pro';
-font-size: 20px;
+font-size: 15px;
 width: 620px;
-padding-left: 30px;
+padding-left: 300px;
 line-height: 30px;
+text-align: center;
+vertical-align: middle;
+color: #fff;
+}
+
+#end .paragraph span {
+  color: #000000;
+}
+
+#end .paragraph span:hover, #end .paragraph span:hover ~ span {
+  color: #99172E;
 }
 
 .SFMOMA{
   font-size: 25px;
-  font-family: 'Didot';
+  font-family: 'Gotham bold';
+  color: #FC4B2F;
+  padding-bottom: 100px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 a{
-  color: #CA163C;
-}
-
-a:visited{
-  color: #CA163C;
+  color:#FC4B2F;
 }
 
 a:hover{
-  color: #B4A568;
+  color: #FF8572;
+}
+
+a:visited{
+  color: #B42F1A;
 }
